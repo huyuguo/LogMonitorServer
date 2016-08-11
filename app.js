@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var debug = require('debug')('LogMonitorServer:server');
 var http = require('http');
 
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -150,13 +151,17 @@ function onListening() {
 }
 
 /**
- *
+ * Connect to socket server.
  */
 
 function onConnection(socket) {
   debug('Connection on');
   socket.emit('add user', 'come on baby');
 }
+
+/**
+ * Disconnet from socket server.
+ */
 
 function onDisconnect(socket) {
   debug('Connection on');
