@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(type='text/javascript' src='/socket.io/socket.io.js')
+        script(type='text/javascript' src='/javascripts/login.js')
+
+        meta(charset="utf-8")
+    body(onload='onloadSocket(#{uid})')
+        div(align='center')
+            h2(id="status") [#{uid}]连接中...
+            br
+            br
+            input(type="button" value="清空" size="30" onclick="onClearHandler()" )
+            br
+            br
+            textarea(id='textarea' readonly='readonly' style='width:90%;height:600px;font-size:16px')
+

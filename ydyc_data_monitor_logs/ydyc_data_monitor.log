@@ -1,0 +1,280 @@
+[2016-08-26 18:41:02.525] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.981988","jing":"116.500603","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:03.017] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:03.463] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:03.706] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:03.801] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:03.934] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:04.435] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:04.708] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:04.942] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:05.465] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:05.632] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:05.790] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:06.134] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:06.665] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:06.965] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:07.289] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:07.450] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:07.720] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:07.940] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:08.089] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:08.304] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:08.406] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:08.704] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:08.912] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:10.376] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:10.676] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:10.934] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:11.177] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:11.266] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:11.629] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:11.667] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:11.809] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:12.069] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:12.190] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:12.409] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:12.580] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:26.778] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:26.935] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:57.552] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:57.692] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:58.513] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:58.975] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:59.188] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:41:59.415] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:00.135] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:00.305] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:00.472] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:00.766] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:01.022] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:01.243] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:01.299] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:01.634] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:01.668] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:01.805] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:27.015] [INFO] ydyc_data_monitor - { api: '/api/get_zhan_list.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }
+[2016-08-26 18:42:27.165] [INFO] ydyc_data_monitor - { api: '/api/get_dist_street_info.php',
+  req: '{"uid":"100","clientversion":"ios_2503","city":"北京市","wei":"39.982424","jing":"116.500576","device_id":"f318f25b1eaa7ac3a42ec91abc23afde027bfe24","key":"RYPC36RBJ4J2YJJ9FUGJ8URG96GRBXLY","city_id":"1","systemversion":"8.4.1","channel":"AppStore"}',
+  res: '{"status":0,"msg":""}',
+  status: '0',
+  uid: '100' }

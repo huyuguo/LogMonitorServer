@@ -4,6 +4,9 @@ var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var http = require('http');
+
+var users = exports.users = [];
+
 /**
  * http://blog.fens.me/nodejs-log4js/
  * log4js的输出级别6个: trace, debug, info, warn, error, fatal
@@ -11,7 +14,7 @@ var http = require('http');
 var log4js = require('log4js');
 log4js.configure({
   appenders:[
-    // {type: 'console'},
+    {type: 'console'},
     {
       type: 'file',
       filename: 'logs/normal.log',
@@ -32,6 +35,13 @@ log4js.configure({
       maxLogSize:104856,
       backups:10,
       category: 'socket'
+    },
+    {
+      type: 'file',
+      filename: 'ydyc_data_monitor_logs/ydyc_data_monitor.log',
+      pattern: '.yyyy-MM-dd', // http://blog.fens.me/nodejs-log4js/
+      alwaysIncludePattern: false,
+      category: 'ydyc_data_monitor'
     }
   ],
   replaceConsole: true
@@ -44,8 +54,7 @@ var logger = exports.logger = function (name) {
 };
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
-
+var login = require('./routes/login');
 var app = express();
 
 /**
@@ -54,6 +63,7 @@ var app = express();
 
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
+
 
 /**
  * Create HTTP server.
@@ -70,6 +80,7 @@ var io = require('socket.io')(server);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(log4js.connectLogger(logger('router'), {level:log4js.levels.INFO}));
@@ -79,8 +90,22 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(bodyParser.json({limit: '15mb'}));
+app.use(bodyParser.urlencoded({limit: '15mb', extended: true}));
+
 app.use('/', routes);
-app.use('/users', users);
+app.use('/login',login);
+app.use('/ydyc/ios', function (req, res, next) {
+  if (req.body['uid']) {
+    users.forEach(function (user) {
+      if(user.data.uid == req.body['uid']) {
+        user.emit('data', req.body);
+      }
+    });
+    logger('ydyc_data_monitor').info(req.body);
+  }
+  res.send({status:0, msg:"success"});
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -91,7 +116,6 @@ app.use(function(req, res, next) {
 
 
 // error handlers
-
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
@@ -119,7 +143,7 @@ app.use(function(err, req, res, next) {
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port, '0.0.0.0');
 server.on('error', onError);
 server.on('listening', onListening);
 io.on('connection', onConnection);
@@ -188,20 +212,47 @@ function onListening() {
 /**
  * Connect to socket server.
  */
-
 function onConnection(socket) {
-  // logger('socket').info('connected');
-  // socket.join('rooooomm', function (error) {
-    // if (error) {
-    //   logger('socket').info('join room error');
-    // } else {
-    //   logger('socket').info('join room success');
-    // }
-  // });
-  // socket.to('rooooomm').emit('roomData', 'cooolllllll');
-  // socket.emit('add user', 'come on baby');
-  socket.on('disconnect', function () {
-    // logger('socket').info('disconnected');
+  socket.on('login', function (data) {
+    if (data.type == 'web') {
+       addUser(socket, data);
+    }
   });
 
+  socket.on('disconnect', function () {
+    if (socket.data != undefined) {
+      removeUser(socket);
+    }
+  });
+}
+
+function addUser(socket, data) {
+  var contained = false;
+  if(users.length !=0) {
+    users.forEach(function (user) {
+      if (user.data.uid == data.uid) {
+        contained = true;
+      }
+    });
+  }
+
+  if (contained) {
+    socket.emit('login', {status:1, msg:'登录失败,在其他地方已经登录'});
+  } else {
+    socket.data = data;
+    users.push(socket);
+    socket.emit('login', {status:0, msg:'登录成功'});
+  }
+}
+
+function removeUser(socket) {
+  var index = 0;
+  for(var i =0,len=users.length; i<len; i++) {
+    if (users[i].data.uid == socket.data.uid) {
+      index = i;
+      break;
+    }
+  }
+
+  users.splice(index, 1);
 }

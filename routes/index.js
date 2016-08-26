@@ -4,8 +4,7 @@ var logger = require('../server').logger('normal');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  logger.info('index.js data');
-  res.render('index', { title: 'Express' });
+  res.render('index', { msg: '确认uid' });
 });
 
 module.exports = router;
