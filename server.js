@@ -99,7 +99,7 @@ app.use('/ydyc/ios', function (req, res, next) {
   if (req.body['uid']) {
     users.forEach(function (user) {
       if(user.data.uid == req.body['uid']) {
-        user.emit('data', req.body.decode());
+        user.emit('data', req.body);
       }
     });
   }
