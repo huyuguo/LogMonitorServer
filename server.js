@@ -44,7 +44,7 @@ log4js.configure({
       category: 'ydyc_data_monitor'
     }
   ],
-  replaceConsole: true
+  replaceConsole: false
 });
 
 var logger = exports.logger = function (name) {
@@ -84,7 +84,6 @@ app.set('view engine', 'jade');
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(log4js.connectLogger(logger('router'), {level:log4js.levels.INFO}));
-// app.use(log4js.connectLogger(logger, {level:log4js.levels.INFO, format:':method :url'}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
