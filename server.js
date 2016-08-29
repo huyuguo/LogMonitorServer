@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var http = require('http');
-
+var compression = require('compression');
 var users = exports.users = [];
 
 /**
@@ -14,7 +14,7 @@ var users = exports.users = [];
 var log4js = require('log4js');
 log4js.configure({
   appenders:[
-    {type: 'console'},
+    // {type: 'console'},
     {
       type: 'file',
       filename: 'logs/normal.log',
@@ -49,7 +49,7 @@ log4js.configure({
 
 var logger = exports.logger = function (name) {
   var logger = log4js.getLogger(name);
-  logger.setLevel('DEBUG');
+  logger.setLevel('INFO');
   return logger;
 };
 
@@ -89,21 +89,24 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(compression());
 app.use(bodyParser.json({limit: '15mb'}));
 app.use(bodyParser.urlencoded({limit: '15mb', extended: true}));
 
 app.use('/', routes);
 app.use('/login',login);
 app.use('/ydyc/ios', function (req, res, next) {
+  console.log(req.body['req']);
+  console.log(req.body['res']);
   if (req.body['uid']) {
     users.forEach(function (user) {
       if(user.data.uid == req.body['uid']) {
         user.emit('data', req.body);
       }
     });
-    logger('ydyc_data_monitor').info(req.body);
   }
+
+  logger('ydyc_data_monitor').info(obj2str(req.body));
   res.send({status:0, msg:"success"});
 });
 
@@ -255,4 +258,32 @@ function removeUser(socket) {
   }
 
   users.splice(index, 1);
+}
+
+function obj2str(o){
+  var r = [];
+  if(typeof o == "string" || o == null) {
+    return o;
+  }
+  if(typeof o == "object"){
+    if(!o.sort){
+      r[0]="{"
+      for(var i in o){
+        r[r.length]=i;
+        r[r.length]=":";
+        r[r.length]=obj2str(o[i]);
+        r[r.length]=",";
+      }
+      r[r.length-1]="}"
+    }else{
+      r[0]="["
+      for(var i =0;i<o.length;i++){
+        r[r.length]=obj2str(o[i]);
+        r[r.length]=",";
+      }
+      r[r.length-1]="]"
+    }
+    return r.join("");
+  }
+  return o.toString();
 }
