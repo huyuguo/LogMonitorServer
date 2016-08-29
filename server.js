@@ -104,9 +104,8 @@ app.use('/ydyc/ios', function (req, res, next) {
         user.emit('data', req.body);
       }
     });
-    logger('ydyc_data_monitor').info(obj2str(req.body));
   }
-
+  logger('ydyc_data_monitor').info(obj2str(req.body));
   res.send({status:0, msg:"success"});
 });
 
