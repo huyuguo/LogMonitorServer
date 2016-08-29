@@ -14,7 +14,7 @@ var users = exports.users = [];
 var log4js = require('log4js');
 log4js.configure({
   appenders:[
-    {type: 'console'},
+    // {type: 'console'},
     {
       type: 'file',
       filename: 'logs/normal.log',
@@ -44,7 +44,7 @@ log4js.configure({
       category: 'ydyc_data_monitor'
     }
   ],
-  replaceConsole: false
+  replaceConsole: true
 });
 
 var logger = exports.logger = function (name) {
