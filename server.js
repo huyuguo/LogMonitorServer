@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var http = require('http');
 var compression = require('compression');
-var password = 'f5897229c6e3b0f9007fc0cb20d5c758';
 var users = exports.users = [];
 
 /**
@@ -15,7 +14,7 @@ var users = exports.users = [];
 var log4js = require('log4js');
 log4js.configure({
   appenders:[
-    {type: 'console'},
+    // {type: 'console'},
     {
       type: 'file',
       filename: 'logs/normal.log',
@@ -50,7 +49,7 @@ log4js.configure({
 
 var logger = exports.logger = function (name) {
   var logger = log4js.getLogger(name);
-  logger.setLevel('DEBUG');
+  logger.setLevel('INFO');
   return logger;
 };
 
