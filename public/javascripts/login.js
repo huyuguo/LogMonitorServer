@@ -22,7 +22,7 @@ function onloadSocket(uid) {
 
         socket.on('data', function(data){
             // JSON.stringify()
-            textarea_value = JSON.stringify(data) + '\n\n' + textarea_value;
+            textarea_value = JSON.stringify(data, null, 4) + '\n\n' + textarea_value;
             // textarea_value = obj2str(data) + '\n\n' + textarea_value;
             textarea.value = textarea_value;
         });
