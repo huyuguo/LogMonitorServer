@@ -7,27 +7,6 @@ log4js.configure({
     appenders:[
         {type: 'console'},
         {
-            type: 'file',
-            filename: 'logs/normal.log',
-            maxLogSize:104856,
-            backups:10,
-            category: 'normal'
-        },
-        {
-            type: 'file',
-            filename: 'logs/router.log',
-            maxLogSize:104856,
-            backups:10,
-            category: 'router'
-        },
-        {
-            type: 'file',
-            filename: 'logs/socket.log',
-            maxLogSize:104856,
-            backups:10,
-            category: 'socket'
-        },
-        {
             type: 'dateFile', // http://blog.csdn.net/youbl/article/details/32708609
             filename: 'test_log/',
             pattern: 'ios_yyyyMMddhh.log',
@@ -43,6 +22,5 @@ var logger = exports.logger = function (name) {
     logger.setLevel('INFO');
     return logger;
 };
-
 
 logger('ydyc_data_monitor').info('sdfsdfdsfdsf');
