@@ -37,11 +37,25 @@ log4js.configure({
       category: 'socket'
     },
     {
-      type: 'file',
-      filename: 'ydyc_data_monitor_logs/ydyc_data_monitor.log',
-      pattern: '.yyyy-MM-dd', // http://blog.fens.me/nodejs-log4js/
-      alwaysIncludePattern: false,
-      category: 'ydyc_data_monitor'
+      type: 'dateFile', // http://blog.csdn.net/youbl/article/details/32708609
+      filename: 'ydyc_data_monitor_logs/ios',
+      pattern: 'ios_yyyyMMddhh.log',
+      alwaysIncludePattern: true,
+      category: 'ios_log'
+    },
+    {
+      type: 'dateFile', // http://blog.csdn.net/youbl/article/details/32708609
+      filename: 'ydyc_data_monitor_logs/android',
+      pattern: 'ios_yyyyMMddhh.log',
+      alwaysIncludePattern: true,
+      category: 'android_log'
+    },
+    {
+      type: 'dateFile', // http://blog.csdn.net/youbl/article/details/32708609
+      filename: 'ydyc_data_monitor_logs/h5',
+      pattern: 'h5_yyyyMMddhh.log',
+      alwaysIncludePattern: true,
+      category: 'h5_log'
     }
   ],
   replaceConsole: true
@@ -94,8 +108,37 @@ app.use(bodyParser.urlencoded({limit: '15mb', extended: true}));
 
 app.use('/', routes);
 app.use('/login',login);
+
 app.use('/ydyc/ios', function (req, res, next) {
-  logger('ydyc_data_monitor').info(obj2str(req.body));
+  logger('ios_log').info(obj2str(req.body));
+
+  if (req.body['uid']) {
+    users.forEach(function (user) {
+      if(user.data.uid == req.body['uid']) {
+        user.emit('data', req.body);
+      }
+    });
+  }
+
+  res.send({status:0, msg:"success"});
+});
+
+app.use('/ydyc/android', function (req, res, next) {
+  logger('android_log').info(obj2str(req.body));
+
+  if (req.body['uid']) {
+    users.forEach(function (user) {
+      if(user.data.uid == req.body['uid']) {
+        user.emit('data', req.body);
+      }
+    });
+  }
+
+  res.send({status:0, msg:"success"});
+});
+
+app.use('/ydyc/h5', function (req, res, next) {
+  logger('h5_log').info(obj2str(req.body));
 
   if (req.body['uid']) {
     users.forEach(function (user) {
