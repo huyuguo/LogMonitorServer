@@ -21,8 +21,9 @@ function onloadSocket(uid) {
         });
 
         socket.on('data', function(data){
-            textarea_value = obj2str(data) + '\n\n' + textarea_value;
-            // textarea.innerText = textarea_value;
+            // JSON.stringify()
+            textarea_value = JSON.stringify(data) + '\n\n' + textarea_value;
+            // textarea_value = obj2str(data) + '\n\n' + textarea_value;
             textarea.value = textarea_value;
         });
     });
