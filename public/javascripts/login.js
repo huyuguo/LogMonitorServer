@@ -21,15 +21,20 @@ function onloadSocket(uid) {
         });
 
         socket.on('data', function(data){
-            // JSON.stringify()
-            textarea_value = JSON.stringify(data, null, 4) + '\n\n' + textarea_value;
-            // textarea_value = obj2str(data) + '\n\n' + textarea_value;
+            if(textarea.length > 40000) {
+                clearTextArea();
+            }
+            textarea_value = JSON.stringify(data, null, 4) + '\n\n\n\n' + textarea_value;
             textarea.value = textarea_value;
         });
     });
 }
 
 function onClearHandler() {
+    clearTextArea();
+}
+
+function clearTextArea() {
     document.getElementById('textarea').innerText = '';
     document.getElementById('textarea').value = '';
     textarea_value = '';
