@@ -14,7 +14,7 @@ var users = exports.users = [];
 var log4js = require('log4js');
 log4js.configure({
   appenders:[
-    // {type: 'console'},
+    {type: 'console'},
     {
       type: 'file',
       filename: 'logs/normal.log',
@@ -95,6 +95,7 @@ app.use(bodyParser.urlencoded({limit: '15mb', extended: true}));
 app.use('/', routes);
 app.use('/login',login);
 app.use('/ydyc/ios', function (req, res, next) {
+  logger('ydyc_data_monitor').info(obj2str(req.body));
 
   if (req.body['uid']) {
     users.forEach(function (user) {
@@ -103,7 +104,7 @@ app.use('/ydyc/ios', function (req, res, next) {
       }
     });
   }
-  logger('ydyc_data_monitor').info(obj2str(req.body));
+
   res.send({status:0, msg:"success"});
 });
 
@@ -284,3 +285,5 @@ function obj2str(o){
   }
   return o.toString();
 }
+
+

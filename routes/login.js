@@ -3,13 +3,11 @@ var router = express.Router();
 var logger = require('../server').logger('normal');
 var users = require('../server').users;
 
-
 router.get('/', function (req, res, next) {
   res.render('index', { msg: '确认手机号' });
 });
 
 router.post('/', function (req, res, next) {
-
   var params = req.body;
   var contained = false;
   if(users.length !=0) {

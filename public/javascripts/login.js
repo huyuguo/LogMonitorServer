@@ -22,13 +22,15 @@ function onloadSocket(uid) {
 
         socket.on('data', function(data){
             textarea_value += obj2str(data) + '\n\n\n\n';
-            textarea.innerText = textarea_value;
+            // textarea.innerText = textarea_value;
+            textarea.value = textarea_value;
         });
     });
 }
 
 function onClearHandler() {
     document.getElementById('textarea').innerText = '';
+    document.getElementById('textarea').value = '';
     textarea_value = '';
 }
 
