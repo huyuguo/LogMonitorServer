@@ -14,7 +14,7 @@ var users = exports.users = [];
 var log4js = require('log4js');
 log4js.configure({
   appenders:[
-    {type: 'console'},
+    // {type: 'console'},
     {
       type: 'file',
       filename: 'logs/normal.log',
@@ -38,21 +38,21 @@ log4js.configure({
     },
     {
       type: 'dateFile', // http://blog.csdn.net/youbl/article/details/32708609
-      filename: 'ydyc_data_monitor_logs/ios',
+      filename: 'ydyc_data_monitor_logs/ios/',
       pattern: 'ios_yyyyMMddhh.log',
       alwaysIncludePattern: true,
       category: 'ios_log'
     },
     {
       type: 'dateFile', // http://blog.csdn.net/youbl/article/details/32708609
-      filename: 'ydyc_data_monitor_logs/android',
+      filename: 'ydyc_data_monitor_logs/android/',
       pattern: 'ios_yyyyMMddhh.log',
       alwaysIncludePattern: true,
       category: 'android_log'
     },
     {
       type: 'dateFile', // http://blog.csdn.net/youbl/article/details/32708609
-      filename: 'ydyc_data_monitor_logs/h5',
+      filename: 'ydyc_data_monitor_logs/h5/',
       pattern: 'h5_yyyyMMddhh.log',
       alwaysIncludePattern: true,
       category: 'h5_log'
