@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8212a30-40f1-4229-ac13-6332b3923a2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="LogMonitorServer.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-3101">
+              <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -101,6 +100,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1011" />
@@ -285,12 +285,12 @@
       <workItem from="1472441259970" duration="10827000" />
       <workItem from="1472521080160" duration="7871000" />
       <workItem from="1472620987162" duration="293000" />
-      <workItem from="1472542110997" duration="539000" />
+      <workItem from="1472542110997" duration="641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80679000" />
+    <option name="totallyTimeSpent" value="80781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,7 +302,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1011" extended-state="6" />
+    <frame x="-11" y="23" width="1920" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27224857" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -606,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="-3101">
+          <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
           <folding />
         </state>
       </provider>

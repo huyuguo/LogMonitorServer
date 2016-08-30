@@ -110,7 +110,7 @@ app.use('/', routes);
 app.use('/login',login);
 
 app.use('/ydyc/ios', function (req, res, next) {
-  logger('ios_log').info(obj2str(req.body));
+  logger('ios_log').info(JSON.stringify(req.body));
 
   if (req.body['uid']) {
     users.forEach(function (user) {
@@ -124,7 +124,7 @@ app.use('/ydyc/ios', function (req, res, next) {
 });
 
 app.use('/ydyc/android', function (req, res, next) {
-  logger('android_log').info(obj2str(req.body));
+  logger('android_log').info(JSON.stringify(req.body));
 
   if (req.body['uid']) {
     users.forEach(function (user) {
@@ -138,7 +138,7 @@ app.use('/ydyc/android', function (req, res, next) {
 });
 
 app.use('/ydyc/h5', function (req, res, next) {
-  logger('h5_log').info(obj2str(req.body));
+  logger('h5_log').info(JSON.stringify(req.body));
 
   if (req.body['uid']) {
     users.forEach(function (user) {
