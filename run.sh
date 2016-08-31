@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 pid=`sed -n 1p pid.txt`
 kill -9 $pid
