@@ -4,10 +4,10 @@
 
 var textarea_value = '';
 
-function onloadSocket(uid) {
+function onloadSocket(uid, host) {
     var status = document.getElementById('status');
     var textarea = document.getElementById('textarea');
-    var socket = io('http://192.168.1.199:8089');
+    var socket = io('http://' + host + ':8089');
     socket.on('connect', function(){
         status.innerText = '[' + uid + ']连接成功...';
         socket.emit('login',{type:'web',uid:uid});

@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var http = require('http');
 var compression = require('compression');
 var users = exports.users = [];
+var querystring = require('querystring');
 
 /**
  * http://blog.fens.me/nodejs-log4js/
@@ -14,7 +15,7 @@ var users = exports.users = [];
 var log4js = require('log4js');
 log4js.configure({
   appenders:[
-    // {type: 'console'},
+    {type: 'console'},
     {
       type: 'file',
       filename: 'logs/normal.log',
@@ -115,6 +116,7 @@ app.use('/ydyc/ios', function (req, res, next) {
   if (req.body['uid']) {
     users.forEach(function (user) {
       if(user.data.uid == req.body['uid']) {
+        req.body['api'] = req.body['api'] + "?" + querystring.stringify(req.body['req']);
         user.emit('data', req.body);
       }
     });
@@ -301,32 +303,5 @@ function removeUser(socket) {
   users.splice(index, 1);
 }
 
-function obj2str(o){
-  var r = [];
-  if(typeof o == "string" || o == null) {
-    return o;
-  }
-  if(typeof o == "object"){
-    if(!o.sort){
-      r[0]="{"
-      for(var i in o){
-        r[r.length]=i;
-        r[r.length]=":";
-        r[r.length]=obj2str(o[i]);
-        r[r.length]=",";
-      }
-      r[r.length-1]="}"
-    }else{
-      r[0]="["
-      for(var i =0;i<o.length;i++){
-        r[r.length]=obj2str(o[i]);
-        r[r.length]=",";
-      }
-      r[r.length-1]="]"
-    }
-    return r.join("");
-  }
-  return o.toString();
-}
 
 
