@@ -7,6 +7,7 @@ var http = require('http');
 var compression = require('compression');
 var users = exports.users = [];
 var querystring = require('querystring');
+var fs = require('fs');
 
 /**
  * http://blog.fens.me/nodejs-log4js/
@@ -306,4 +307,10 @@ function removeUser(socket) {
 }
 
 
-
+fs.open("pid.txt","w",0644,function(e,fd){
+  if(e) throw e;
+  fs.write(fd,process.pid,function(e){
+    if(e) throw e;
+    fs.closeSync(fd);
+  });
+});
