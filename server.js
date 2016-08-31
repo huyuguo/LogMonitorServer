@@ -116,7 +116,7 @@ app.use('/ydyc/ios', function (req, res, next) {
   if (req.body['uid']) {
     users.forEach(function (user) {
       if(user.data.uid == req.body['uid']) {
-        req.body['api'] = req.body['api'] + "?" + querystring.stringify(req.body['req']);
+        req.body['api'] = req.body['host'] + req.body['api'] + "?" + querystring.stringify(req.body['req']);
         user.emit('data', req.body);
       }
     });
@@ -131,6 +131,7 @@ app.use('/ydyc/android', function (req, res, next) {
   if (req.body['uid']) {
     users.forEach(function (user) {
       if(user.data.uid == req.body['uid']) {
+        req.body['api'] = req.body['host'] + req.body['api'] + "?" + querystring.stringify(req.body['req']);
         user.emit('data', req.body);
       }
     });
@@ -145,6 +146,7 @@ app.use('/ydyc/h5', function (req, res, next) {
   if (req.body['uid']) {
     users.forEach(function (user) {
       if(user.data.uid == req.body['uid']) {
+        req.body['api'] = req.body['host'] + req.body['api'] + "?" + querystring.stringify(req.body['req']);
         user.emit('data', req.body);
       }
     });
