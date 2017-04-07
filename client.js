@@ -3,7 +3,7 @@
  */
 
 // var socket = require('socket.io-client')('http://localhost:3000');
-var socket = require('socket.io-client')('ws://localhost:3000');
+var socket = require('socket.io-client')('ws://localhost:8089');
 
 var argv = process.argv;
 if (argv.length != 3) {
