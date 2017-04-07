@@ -114,10 +114,11 @@ app.use('/login',login);
 app.use('/ydyc/ios', function (req, res, next) {
   logger('ios_log').info(JSON.stringify(req.body));
 
-  if (req.body['uid']) {
+  if (req.body['req']['uid']) {
     users.forEach(function (user) {
-      if(user.data.uid == req.body['uid']) {
+      if(user.data.uid == req.body['req']['uid']) {
         // req.body['api'] = req.body['host'] + req.body['api'] + "?" + querystring.stringify(req.body['req']);
+
         user.emit('data', req.body);
       }
     });
