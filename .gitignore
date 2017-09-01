@@ -4,3 +4,4 @@ ydyc_data_monitor_logs
 ydyc_data_monitor_logs/*
 api.txt
 pid.txt
+.idea

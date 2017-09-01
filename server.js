@@ -128,9 +128,9 @@ app.use('/ydyc/ios', function (req, res, next) {
 app.use('/ydyc/android', function (req, res, next) {
   logger('android_log').info(JSON.stringify(req.body));
 
-  if (req.body['uid']) {
+  if (req.body['req']['uid']) {
     users.forEach(function (user) {
-      if(user.data.uid == req.body['uid']) {
+      if(user.data.uid == req.body['req']['uid']) {
         user.emit('data', req.body);
       }
     });
@@ -144,7 +144,7 @@ app.use('/ydyc/h5', function (req, res, next) {
 
   if (req.body['uid']) {
     users.forEach(function (user) {
-      if(user.data.uid == req.body['uid']) {
+      if(user.data.uid == req.body['req']['uid']) {
         user.emit('data', req.body);
       }
     });
