@@ -132,6 +132,8 @@ app.use('/ydyc/android', function (req, res, next) {
   if (reqData['uid']) {
     users.forEach(function (user) {
       if(user.data.uid == reqData['uid']) {
+        req.body['req'] = JSON.parse(req.body['req'])
+        req.body['res'] = JSON.parse(req.body['res'])
         user.emit('data', req.body);
       }
     });
