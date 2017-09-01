@@ -128,9 +128,10 @@ app.use('/ydyc/ios', function (req, res, next) {
 app.use('/ydyc/android', function (req, res, next) {
   logger('android_log').info(JSON.stringify(req.body));
 
-  if (req.body['req']['uid']) {
+  var reqData = JSON.parse(req.body['req'])
+  if (reqData['uid']) {
     users.forEach(function (user) {
-      if(user.data.uid == req.body['req']['uid']) {
+      if(user.data.uid == reqData['uid']) {
         user.emit('data', req.body);
       }
     });
