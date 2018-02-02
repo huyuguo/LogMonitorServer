@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-/.idea
+.idea/
 logs
 ydyc_data_monitor_logs
 # ydyc_data_monitor_logs/*
