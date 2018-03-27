@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8212a30-40f1-4229-ac13-6332b3923a2e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LogMonitorServer.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811153441.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811153442.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811153720.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811153936.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811153943.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811154200.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811154449.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace_20160811154646.xml" afterPath="" />
-    </list>
+    <list default="true" id="c8212a30-40f1-4229-ac13-6332b3923a2e" name="Default" comment="" />
     <ignored path="LogMonitorServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -354,7 +339,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128818000" />
+    <option name="totallyTimeSpent" value="129131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +352,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="146" y="33" width="1637" height="849" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27846536" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -376,7 +360,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27688172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2055703" sideWeight="0.49765533" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2055703" sideWeight="0.49765533" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
