@@ -1,8 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
-logs
-ydyc_data_monitor_logs
-# ydyc_data_monitor_logs/*
+*.log.*
+*.log
 api.txt
-pid.txt
-
+/nohup.out
