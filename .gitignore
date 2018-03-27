@@ -4,3 +4,4 @@
 *.log
 api.txt
 /nohup.out
+/node_modules/
