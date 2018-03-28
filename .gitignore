@@ -1,7 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
-*.log.*
-*.log
+*.log*
 api.txt
 /nohup.out
 /node_modules/
